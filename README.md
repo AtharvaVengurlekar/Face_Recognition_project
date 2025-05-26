@@ -1,5 +1,3 @@
----
-
 ````markdown
 # 🎯 Face Recognition Using ArcFace (InsightFace)
 
