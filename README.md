@@ -21,7 +21,7 @@ This project performs **face recognition on local videos** using the high-accura
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/Face_Recognition_Project.git
+git clone 
 cd Face_Recognition_Project
 ```
 
