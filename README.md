@@ -1,4 +1,4 @@
-Absolutely — you want a **clean and concise `README.md`** with:
+#	Face Recognition 
 
 * Project title
 * Key features
