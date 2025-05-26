@@ -1,15 +1,3 @@
-#	Face Recognition 
-
-* Project title
-* Key features
-* Git clone instructions
-* Conda activation
-* `pip install`
-* Explanation of what the 3 main Python files do
-* Commands to run them
-
-Here’s your simplified and professional `README.md`:
-
 ---
 
 ````markdown
