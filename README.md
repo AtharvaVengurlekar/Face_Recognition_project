@@ -49,8 +49,8 @@ python video2frames.py
 
 #Embeddings will be stored in either:
 
-- **vector_embeddings_with_angle/ (angle-based Threshold)
-- **vector_embeddings_no_angle/ (no Threshold)
+- Vector_embeddings_with_angle/ (angle-based Threshold)
+- Vector_embeddings_no_angle/ (no Threshold)
 
 ###🕵 3. Identify Faces in a New Video
 
