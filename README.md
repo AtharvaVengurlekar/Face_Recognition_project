@@ -18,34 +18,34 @@ This project performs **face recognition on local videos** using the high-accura
 
 ## ⚙️ Setup Guide
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/Face_Recognition_Project.git
 cd Face_Recognition_Project
 ```
 
-### 2️⃣ Create and Activate a Conda Environment
+### Create and Activate a Conda Environment
 
 ```bash
 conda create -n face_recognition_env python=3.10
 conda activate face_recognition_env
 ```
 
-### 3️⃣ Install Required Dependencies
+### Install Required Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-🔁 1. Convert Video to Frames
+ 1. Convert Video to Frames
 
 ### Extracts image frames from videos placed in the inputs/ folder.
 ```bash
 python video2frames.py
 ```
 
-🧬 2. Generate Face Embeddings
+ 2. Generate Face Embeddings
 
 Creates ArcFace embeddings for faces detected in the frames.
 
@@ -57,7 +57,7 @@ Embeddings will be stored in either:
 create_face_embeddings_arcface.py
 ```
 
-🕵 3. Identify Faces in a New Video
+ 3. Identify Faces in a New Video
 
 Compares new video frames against the known embeddings.
 ```bash
