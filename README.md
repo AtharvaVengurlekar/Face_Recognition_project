@@ -16,7 +16,7 @@ This project performs **face recognition on local videos** using the high-accura
 
 ---
 
-## ⚙️ Setup Guide
+##  Setup Guide
 
 ### Clone the Repository
 
