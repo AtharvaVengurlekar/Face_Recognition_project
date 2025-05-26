@@ -46,10 +46,11 @@ python video2frames.py
 
 🧬 2. Generate Face Embeddings
 ###Creates ArcFace embeddings for faces detected in the frames.
-##Embeddings will be stored in either:
 
--vector_embeddings_with_angle/ (angle-based Threshold)
--vector_embeddings_no_angle/ (no Threshold)
+#Embeddings will be stored in either:
+
+- **vector_embeddings_with_angle/ (angle-based Threshold)
+- **vector_embeddings_no_angle/ (no Threshold)
 
 ###🕵 3. Identify Faces in a New Video
 
