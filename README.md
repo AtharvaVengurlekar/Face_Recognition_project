@@ -9,6 +9,7 @@ This project performs **face recognition on local videos** using the high-accura
 - **Video to Frames**: Automatically extracts frames from input videos.
 - **Face Embeddings**: Uses ArcFace via InsightFace to create robust facial embeddings.
 - 🎛**Image Enhancement**: Improves frame quality using CLAHE, brightness, and contrast adjustments.
+- **Creating the universal embeddings which can detect in every webcam or cctv footage.
 - **Angle Filtering (Optional)**: Filters embeddings based on face orientation for improved accuracy.
 - **Face Identification**: Compares faces in test videos with known faces using vector similarity.
 - **CPU & GPU Support**: Runs efficiently on both CPU and CUDA-enabled GPUs.
