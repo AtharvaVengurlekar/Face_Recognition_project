@@ -37,23 +37,23 @@ conda activate face_recognition_env
 pip install -r requirements.txt
 ```
 
-###🔁 1. Convert Video to Frames
+🔁 1. Convert Video to Frames
 
 ### Extracts image frames from videos placed in the inputs/ folder.
 ```bash
 python video2frames.py
 ```
 
-##🧬 2. Generate Face Embeddings
-#Creates ArcFace embeddings for faces detected in the frames.
-#Embeddings will be stored in either:
+🧬 2. Generate Face Embeddings
+###Creates ArcFace embeddings for faces detected in the frames.
+##Embeddings will be stored in either:
 
 -vector_embeddings_with_angle/ (angle-based Threshold)
 -vector_embeddings_no_angle/ (no Threshold)
 
-##🕵️ 3. Identify Faces in a New Video
+###🕵 3. Identify Faces in a New Video
 
-###Compares new video frames against the known embeddings.
+##Compares new video frames against the known embeddings.
 ```bash
 python face_identification_local_video_arc_face.py
 ```
