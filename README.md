@@ -52,9 +52,9 @@ python video2frames.py
 - Vector_embeddings_with_angle/ (angle-based Threshold)
 - Vector_embeddings_no_angle/ (no Threshold)
 
-###🕵 3. Identify Faces in a New Video
+🕵 3. Identify Faces in a New Video
 
-##Compares new video frames against the known embeddings.
+#Compares new video frames against the known embeddings.
 ```bash
 python face_identification_local_video_arc_face.py
 ```
