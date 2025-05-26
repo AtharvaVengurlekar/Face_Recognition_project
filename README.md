@@ -37,7 +37,7 @@ conda activate face_recognition_env
 pip install -r requirements.txt
 ```
 
-##🔁 1. Convert Video to Frames
+🔁 1. Convert Video to Frames
 
 ### Extracts image frames from videos placed in the inputs/ folder.
 ```bash
