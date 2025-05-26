@@ -1,17 +1,17 @@
-# 🎯 Face Recognition with ArcFace (InsightFace)
+# Face Recognition with ArcFace (InsightFace)
 
 This project performs **face recognition on local videos** using the high-accuracy **ArcFace model** from InsightFace. It detects, embeds, and identifies faces from video frames using precomputed facial embeddings. Ideal for both research and real-world applications.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- 🎥 **Video to Frames**: Automatically extracts frames from input videos.
-- 🧠 **Face Embeddings**: Uses ArcFace via InsightFace to create robust facial embeddings.
-- 🎛️ **Image Enhancement**: Improves frame quality using CLAHE, brightness, and contrast adjustments.
-- 🎯 **Angle Filtering (Optional)**: Filters embeddings based on face orientation for improved accuracy.
-- 🧍‍♂️ **Face Identification**: Compares faces in test videos with known faces using vector similarity.
-- ⚡ **CPU & GPU Support**: Runs efficiently on both CPU and CUDA-enabled GPUs.
+- **Video to Frames**: Automatically extracts frames from input videos.
+- **Face Embeddings**: Uses ArcFace via InsightFace to create robust facial embeddings.
+- 🎛**Image Enhancement**: Improves frame quality using CLAHE, brightness, and contrast adjustments.
+- **Angle Filtering (Optional)**: Filters embeddings based on face orientation for improved accuracy.
+- **Face Identification**: Compares faces in test videos with known faces using vector similarity.
+- **CPU & GPU Support**: Runs efficiently on both CPU and CUDA-enabled GPUs.
 
 ---
 
@@ -45,9 +45,8 @@ python video2frames.py
 ```
 
 ##🧬 2. Generate Face Embeddings
-
 #Creates ArcFace embeddings for faces detected in the frames.
-##Embeddings will be stored in either:
+#Embeddings will be stored in either:
 
 -vector_embeddings_with_angle/ (angle-based Threshold)
 -vector_embeddings_no_angle/ (no Threshold)
