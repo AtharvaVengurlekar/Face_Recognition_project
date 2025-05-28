@@ -1,8 +1,6 @@
 numpy==1.26.4 
-face-recognition==1.3.0
 opencv-python
 pynvml
-faiss-gpu-cu12==1.9.0.post1
 scikit-learn
 psutil
 ultralytics==8.3.81
